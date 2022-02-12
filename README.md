@@ -1,10 +1,10 @@
-[![Lighthouse PWA Test](https://github.com/ivelin/olympus-frontend/actions/workflows/lighthouse.yml/badge.svg)](https://github.com/ivelin/olympus-frontend/actions/workflows/lighthouse.yml)
+[![Lighthouse PWA Test](https://github.com/ivelin/Harmonya-frontend/actions/workflows/lighthouse.yml/badge.svg)](https://github.com/ivelin/Harmonya-frontend/actions/workflows/lighthouse.yml)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 [![OHM Discord](https://img.shields.io/badge/chat-on%20discord-7289DA.svg)](https://discord.gg/gGZUMVDuhQ)
 
-# [Ω Olympus Frontend](https://app.olympusdao.finance/)
+# [≡ Harmonya Frontend](https://app.Harmonyadao.finance/)
 
-This is the front-end repo for Olympus that allows users to be part of the future of _Meta Greece_.
+This is the front-end repo for Harmonya that allows users to be part of the future of _Meta Greece_.
 
 We are moving at web3 speed and we are looking for talented contributors to boost this rocket. Take a look at our [CONTRIBUTING GUIDE](CONTRIBUTING.md) if you are considering joining a world class DAO.
 
@@ -17,8 +17,8 @@ Required:
 - [Git](https://git-scm.com/downloads)
 
 ```bash
-$ git clone https://github.com/OlympusDAO/olympus-frontend.git
-$ cd olympus-frontend
+$ git clone https://github.com/HarmonyaDAO/Harmonya-frontend.git
+$ cd Harmonya-frontend
 
 # set up your environment variables
 # read the comments in the .env files for what is required/optional
@@ -82,7 +82,7 @@ We use [Jest Snapshot tests](https://jestjs.io/docs/snapshot-testing) to make su
 When you make changes to the UI (intentionally), you likely will have to update the Snapshots. You can do so by running:
 `yarn snapshot`.
 
-[Here is an example](src/views/Stake/__tests__/Stake.unit.test.tsx) snapshot test and [here is the correspoding recorded snapshot](https://github.com/OlympusDAO/olympus-frontend/blob/develop/src/views/Stake/__tests__/__snapshots__/Stake.unit.test.tsx.snap). Keep in mind that for snapshot tests to be meaningful, they have to pre-populate components with variety of data sets (realistic, edge case, invalid).
+[Here is an example](src/views/Stake/__tests__/Stake.unit.test.tsx) snapshot test and [here is the correspoding recorded snapshot](https://github.com/HarmonyaDAO/Harmonya-frontend/blob/develop/src/views/Stake/__tests__/__snapshots__/Stake.unit.test.tsx.snap). Keep in mind that for snapshot tests to be meaningful, they have to pre-populate components with variety of data sets (realistic, edge case, invalid).
 
 [Here is a good blog post](https://dev.to/tobiastimm/property-based-testing-with-react-and-fast-check-3dce) about testing React components with generative data sets.
 
@@ -151,7 +151,7 @@ If you are an established contributor with access rights to create and push to b
 2. In your gitpod dashboard, set a new variable named `GITHUB_OHM_PERSONAL_ACCESS_TOKEN` to the value of the access token.
 3. Use the button below to start a pre-configured gidpod environment.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/OlympusDAO/olympus-frontend)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/HarmonyaDAO/Harmonya-frontend)
 
 4. Follow the simplified [Github Flow](https://docs.github.com/en/get-started/quickstart/github-flow) to create new branches in the repo and submit PRs.
 
@@ -204,9 +204,9 @@ For the available theme properties, take a look at the themes in `src/themes`.
 
 ## Application translation
 
-Olympus uses [linguijs](https://github.com/lingui/js-lingui) to manage translation.
+Harmonya uses [linguijs](https://github.com/lingui/js-lingui) to manage translation.
 
-The language files are located in a submodule deployed in `src/locales/translations`. This submodule points to the [olympus translation repository](https://github.com/OlympusDAO/olympus-translations)
+The language files are located in a submodule deployed in `src/locales/translations`. This submodule points to the [Harmonya translation repository](https://github.com/HarmonyaDAO/Harmonya-translations)
 
 In order to mark text for translation you can use:
 
@@ -221,7 +221,7 @@ t({
 })
 ```
 
-When new texts are created or existing texts are modified in the application please leave a message in the OlympusDao app-translation channel for the translators to translate them.
+When new texts are created or existing texts are modified in the application please leave a message in the HarmonyaDao app-translation channel for the translators to translate them.
 
 ### Resolving merge conflicts with translations
 
@@ -263,7 +263,7 @@ An up-to-date list of available components, implementation examples as well as d
 
 [![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@main/badge/badge-storybook.svg)](https://master--61c4d644c064da004aebdd97.chromatic.com/)
 
-Contributions are welcome and encouraged to our Component Library. If you see repeated UI patterns not represented in the library, or would like to enhance functionality (such as adding assets to our Icon or Token components), you're welcome to [submit a PR to the component-library project](https://github.com/OlympusDAO/component-library). Please fully review component documentation in Storybook before submitting a PR.
+Contributions are welcome and encouraged to our Component Library. If you see repeated UI patterns not represented in the library, or would like to enhance functionality (such as adding assets to our Icon or Token components), you're welcome to [submit a PR to the component-library project](https://github.com/HarmonyaDAO/component-library). Please fully review component documentation in Storybook before submitting a PR.
 
 ## 🚀 Deployment
 
@@ -276,8 +276,8 @@ _**TODO**: TheGraph implementation/how/why we use it._
 Commits to the follow branches are automatically deployed to their respective URLs.
 | Branch | URL |
 | --- | --- |
-| master | <https://app.olympusdao.finance> |
-| deploy | <https://staging.olympusdao.finance> |
+| master | <https://app.Harmonyadao.finance> |
+| deploy | <https://staging.Harmonyadao.finance> |
 
 **Pull Requests**:
 Each PR into master will get its own custom URL that is visible on the PR page. QA & validate changes on that URL before merging into the deploy branch.
@@ -290,11 +290,11 @@ Each PR into master will get its own custom URL that is visible on the PR page. 
 
 First, take a look at our [CONTRIBUTING GUIDE](CONTRIBUTING.md) .
 
-We keep an updated list of bugs/feature requests in [Github Issues](https://github.com/OlympusDAO/olympusdao/issues).
+We keep an updated list of bugs/feature requests in [Github Issues](https://github.com/HarmonyaDAO/Harmonyadao/issues).
 
-![GitHub issues](https://img.shields.io/github/issues/olympusdao/olympusdao?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/Harmonyadao/Harmonyadao?style=flat-square)
 
-Filter by ["good first issue"](https://github.com/OlympusDAO/olympusdao/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) to get your feet wet!
+Filter by ["good first issue"](https://github.com/HarmonyaDAO/Harmonyadao/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) to get your feet wet!
 Once you submit a PR, our CI will generate a temporary testing URL where you can validate your changes. Tag any of the gatekeepers on the review to merge them into master.
 
 _**NOTE**_: For big changes associated with feature releases/milestones, they will be merged onto the `develop` branch for more thorough QA before a final merge to `master`
